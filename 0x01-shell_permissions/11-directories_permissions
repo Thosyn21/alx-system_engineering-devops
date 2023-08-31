@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 755 flag -R
+chmod 755 hello -R
