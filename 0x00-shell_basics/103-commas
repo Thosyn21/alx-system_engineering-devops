@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a  --format=comma --group-directories-first --indicator-style=slash | LC_ALL=C sort -f
+ls -p -la -m
