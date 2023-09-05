@@ -1,3 +1,2 @@
 #!/bin/bash
-WATER_10=$((5#$(echo $WATER | tr water 01234))); STIR_10=$((5#$(echo $STIR | tr stir. 01234))); SUM_10=$(($WATER_10 + $STIR_10)); SUM_8=$(printf "%o" $SUM_10); echo $SUM_8 | tr 01234567 belhnort
-
+echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'behlnort')
